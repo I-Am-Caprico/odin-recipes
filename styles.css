@@ -1,0 +1,36 @@
+* {
+    line-height: 1.4;
+}
+
+body {
+    font-family: "Arial", sans-serif;
+    font-size: 20px;
+}
+
+img {
+    width: 500px;
+    border: 2px solid black;
+}
+
+h1 {
+    color: #cf2868c5;
+    background-color: rgb(255, 235, 205);
+    font-weight: bold;
+    font-size: 60px;
+    font-family: "Georgia", serif;
+}
+
+h2 {
+    color: #cf2868c5;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: rgb(254, 239, 255);
+}
+
+a {
+    color: blueviolet;
+}
+
+strong {
+    font-weight: bold;
+}

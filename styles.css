@@ -1,5 +1,9 @@
 * {
-    line-height: 1.4;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: rgb(251, 224, 255);
 }
 
 body {
@@ -12,13 +16,13 @@ img {
     border: 2px solid black;
 }
 
-h1 {
+/* h1 {
     color: #cf2868c5;
     background-color: rgb(255, 235, 205);
     font-weight: bold;
     font-size: 60px;
     font-family: "Georgia", serif;
-}
+} */
 
 h2 {
     color: #cf2868c5;
@@ -27,10 +31,54 @@ h2 {
     background-color: rgb(254, 239, 255);
 }
 
-a {
-    color: blueviolet;
-}
-
 strong {
     font-weight: bold;
+}
+
+.box-menu {
+    width: 50%;
+    margin: auto;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid black;
+    background-color: rgb(242, 157, 255);
+}
+
+.box-menu h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    font-family: "Georgia", serif;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+.box-menu ul {
+    display: block;
+    text-align: center;
+}
+
+.box-menu li {
+    display: inline-block;
+    margin: 5px;
+    border: 2px solid purple;
+    background-color: violet;
+}
+
+.box-menu a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+}
+
+.box-menu a:hover {
+    background-color: rgb(231, 88, 231);
+}
+
+.box-menu img {
+    display: block;
+    width: 20%;
+    margin: 20px auto;
+    border: none;
 }
